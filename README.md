@@ -8,7 +8,7 @@ SETTING UP WAMPSERVER
 2. Run Wampserver by double-clicking on the shortcut on your Desktop. You should see the Wampserver logo around the right area of your taskbar. Wait for it to turn green.
 
 SETTING UP THE DATABASE
-1. Click on the Wampserver icon on your taskbar. A small window appears with a list of options. Open PHPMyAdmin.
+1. Click on the Wampserver icon on your taskbar. A small window appears with a list of options. Open PHPMyAdmin and login with username 'root' and no password.
 2. In the Databases tab, create a database called "kiwi_ormiston". Then, in the Import tab, choose the 'kiwi_ormiston.sql' file.
 
 SETTING UP THE WEBSITE
