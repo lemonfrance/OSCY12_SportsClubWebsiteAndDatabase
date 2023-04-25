@@ -1,0 +1,681 @@
+@charset "utf-8"
+/*CSS Document*/
+  
+body{
+	font-family: Arial, Calibri, sans-serif;
+	background-color: #7F7F7F;
+}
+
+/* website */
+
+#header{
+	background-color: #8DD9EB;
+	position: fixed;
+	margin: auto;
+	height: 10.5%;
+	width: 100%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: left;
+	top: 0%;
+	left: 0%;
+	z-index: 1;
+}
+
+#tabs{
+	font-family: Century Gothic;
+	color: #ffffff;
+	font-size: 100%;
+	font-weight: bold;
+	background-color: #51C6E1;
+	position: fixed;
+	margin: auto;
+	height: 5.5%;
+	width: 100%;
+	left: 0%;
+	top: 14%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 0.5%;
+	padding-bottom: 1%;
+	z-index: 1;
+}
+
+
+#navigation{
+	font-family: Calibri;
+	font-size: 28px;
+	position: fixed;
+	background-color: #BFBFBF;
+	margin: auto;
+	height: auto;
+	width: 10%;
+	top: 28%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	left: 2%;
+	z-index: 1;
+	border-radius: 15%;
+}
+
+#bodybg{
+	background-color: #7F7F7F;
+	position: absolute;
+	top: 22.5%;
+	left: -1%;
+	width: 100.9%;
+	height:auto;
+	padding-top: 3%;
+}
+
+#content{
+	font-family: Calibri;
+	font-size: 20px;
+	background-color: #ffffff;
+	position: relative;
+	margin: auto;
+	height: auto;
+	width: 60%;
+	top: 33.5%;
+	left: 8%;
+	border-radius: 50px;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+#footer{
+	display: block;
+	font-family: Century Gothic;
+	color: #ffffff;
+	font-weight: bold;
+	position: relative;
+	margin: auto;
+	height: 10%;
+	width: 65.5%;
+	bottom: 0%;
+	left: 5%;
+	text-align: center;
+	z-index: 1%;
+	padding:2%;
+}
+
+#logo{
+	height: 110%;
+	width: 45%;
+	z-index: 1;
+}
+
+#footerlogos{
+	height: 50px;
+	width: 50px;
+	padding-bottom: 0.5%;
+	z-index: 1;
+}
+
+/* login */
+
+#login_bg1{
+	background-color: #7F7F7F;
+	position: fixed;
+	margin: auto; 
+	width: 56%;
+	height: 55%;
+	left: 19%;
+	top: 22%;
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 3%;
+}
+
+#login_bg2{
+	background-color: #BFBFBF;
+	position: fixed;
+	margin: auto; 
+	width: 100%;
+	height: 100%;
+	left:0%;
+	top: 0%;
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 3%;
+}
+
+#login_content{
+	font-family: Calibri;
+	font-size: 20px;
+	background-color: #ffffff;
+	position: fixed;
+	margin: auto;
+	height: 36%;
+	width: 45%;
+	top: 31%;
+	left: 24.5%;
+	border-radius: 50px;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 2%;
+	padding-bottom: 4%;
+}
+
+#login_tabs{
+	font-family: Century Gothic;
+	color: #ffffff;
+	font-size: 100%;
+	font-weight: bold;
+	background-color: #51C6E1;
+	position: fixed;
+	margin: auto;
+	height: 5.5%;
+	width: 58%;
+	left: 19%;
+	top: 14%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 0.5%;
+	padding-bottom: 1%;
+	z-index: 1;
+}
+
+#login_header{
+	background-color: #8DD9EB;
+	position: fixed;
+	margin: auto;
+	height: 10.5%;
+	width: 58%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: center;
+	top: 0%;
+	left: 19%;
+}
+
+#login_logo{
+	height: 110%;
+	width: 75%;
+}
+
+#login_footer{
+	font-family: Century Gothic;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #51C6E1;
+	position: fixed;
+	margin: auto;
+	height: 10%;
+	width: 60%;
+	top: 86.5%;
+	left: 19%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	padding-top: 1.5%;
+	text-align: center;
+}
+
+#wronglogin{
+	font-family: Century Gothic;
+	font-size: 70px;
+	text-align: center;
+	font-weight: bold;
+	color: #ff8C00;;
+}
+
+/* admin */
+
+.logout{
+	text-align: right;
+	position: fixed;
+	right: 9%;
+	top: 17%;
+}
+
+#admin_content{
+	font-family: Calibri;
+	font-size: 20px;
+	position: absolute;
+	margin: auto;
+	background-image: url("D1FoF7.png");
+	height: auto;
+	min-height: 62.5%;
+	width: 63%;
+	top: 22%;
+	left: 23%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 0.5%;
+	padding-bottom: 3%;
+}
+
+#admin_footer{
+	font-family: Century Gothic;
+	color: #ffffff;
+	font-weight: bold;
+	position: absolute;
+	margin: auto;
+	height: 38px;
+	width: 94%;
+	top: 100%;
+	left: 0%;
+	text-align: center;
+	z-index: 1%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: #51C6E1;
+}
+
+#admin_nav{
+	text-align: center;
+	font-family: Calibri;
+	font-size: 28px;
+	position: fixed;
+	background-color: #BFBFBF;
+	margin: auto;
+	height: auto;
+	width: 10%;
+	top: 28%;
+	padding-left: 2.5%;
+	padding-right: 3%;
+	padding-top: 0.5%;
+	padding-bottom: 1%;
+	left: 3.5%;
+	z-index: 1;
+	border-radius: 50px;
+}
+
+#searchbox{
+	padding: 0.5%;
+	width: 25%;
+}
+
+
+/*titles - changed code: created classes and ids for minimal code*/
+.titles{
+	font-weight: bold;
+	font-family: Calibri;
+	color: #ff8C00;
+}
+#bodyttl{
+	font-size: 35px;
+}
+
+#bodysub{
+	font-size: 25px;
+}
+
+/*links*/
+
+
+#tablinks{
+	background-color: #51C6E1;
+	text-decoration: none;
+	z-index: 1;
+}
+
+#tablinks:link{
+	color: #ffffff;
+}
+
+#tablinks:visited{
+	color: #2f5597;
+}
+
+#tablinks:hover{
+	color: #7f7f7f;
+}
+
+#sublinks:link{
+	font-family: Calibri;
+	font-size: 20px;
+	color: #ff8C00;
+}
+
+#sublinks:visited{
+	font-family: Calibri;
+	font-size: 20px;
+	color: #7f7f7f;
+}
+
+#sublinks:hover{
+	font-family: Calibri;
+	font-size: 20px;
+	color: #2f5597;
+}
+
+#navlinks:link{
+	color: #000000;
+}
+
+#navlinks:visited{
+	color: #ffffff;
+}
+
+#navlinks:hover{
+	color: #2f5597;
+}
+
+#backtotop{
+	border-radius: 100%;
+	background-color: #ffa500;
+	position: fixed;
+	left: 94.5%;
+	top: 50%;
+	height: 50px;
+	width: 50px;
+	color: #ffffff;
+	font-size: 10px;
+	font-family: Century Gothic;
+	text-align: center;
+	padding: 0.5%;
+}
+
+/*website data*/
+
+#div_left{
+	display: inline-block;
+	position: relative;
+	width: 45%;
+	padding: 2%;
+}
+
+#div_right{
+	display: inline-block;
+	width: 45%;
+	position: relative;
+	padding: 2%;
+}
+
+#sched{ /*table*/
+	height: 220px;
+	width: 465px;
+	font-family: Calibri;
+	font-size: 20px;
+	padding: 2%;
+}
+
+#uniforms{ /*table*/
+	position: relative;
+	height: 220px;
+	width: 100%;
+	font-family: Calibri;
+	font-size: 15px;
+	border-collapse: collapse;
+	border: 1px solid #ff8C00;
+}
+
+#activities{ /*table*/
+	height: 370px;
+	width: 490px;
+	font-family: Calibri;
+	font-size: 20px;
+}
+
+#orangerow{
+	background-color:#ff8C00;
+	color: #ffffff;
+}
+
+#orangefont{
+	color: #ff8C00;
+	font-family: Calibri;
+	font-weight: bold;
+}
+
+.pics{ /*img*/
+	max-height: 400px;
+	min-width: 600px;
+	border: 1px solid #000000;
+}
+
+th, td{
+	padding: 1%;
+	text-align: center;
+	width: auto;
+	height: auto;
+}
+
+/*photo gallery*/
+
+#album{
+	text-align: center;
+	display: block;
+	background-color: none;
+	left: 0%;
+	position: static;
+	height: 300px;
+	max-width: 680px;
+	padding: 5%;
+	margin: auto;
+}
+
+.albumcover{
+	height: 300px;
+	display: block;
+	position: absolute;
+	width: 680px;
+	border-radius: 50px;
+	border: 15px solid #ffffff;
+	margin: auto;
+}
+
+.openalbum{
+	position: relative;
+	padding: 1%;
+	width: 200px;
+	height: 200px;
+	background-color: #51C6E1;
+	color: #ffffff;
+	font-family: Century Gothic;
+	font-size: 20px;
+	top: 20%;
+	border-radius: 100%;
+	margin: auto;
+}
+
+.openalbum:hover{
+	background-color: #ff8C00;
+	color: #000000;
+	font-weight: bold;
+	opacity: 0.8;
+}
+
+#album:hover .albumcover{
+	border: 15px solid #51C6E1;
+}
+
+
+/* The following code is based on the example in W3school.com: https://www.w3schools.com/howto/howto_css_dropdown.asp and... */
+/* ... the code snippet posted by n00b in stackoverflow: https://stackoverflow.com/questions/5210033/using-only-css-show-div-on-hover-over-a */
+
+.tabbtn{
+	background-color: #51C6E1;
+	text-decoration: none;
+}
+
+.tabbtn:link{
+	color: #ffffff;
+}
+
+.tabbtn:visited{
+	color: #2f5597;
+}
+
+.tabbtn:hover{
+	color: #7f7f7f;
+}
+
+.tabdrop{
+	position: relative;
+	min-width: 100px;
+	display: inline-block;
+}
+
+.tabcont{
+	background-color: #8DD9EB;
+	display:none;
+	position: absolute;
+	left:0;
+	font-size: 16px;
+}
+
+.tabcont a{
+	text-decoration: none;
+	background-color: #8DD9EB;
+	padding: 10px;
+	display:block;
+}
+
+.tabcont a:link {
+	color: #ffffff;
+}
+
+.tabcont a:hover {
+	background-color: #ff8C00;
+}
+
+.tabcont a:visited {
+	color: #2f5597;
+}
+
+.tabdrop:hover .tabcont{
+	display: block;
+}
+
+/* editing database tables and application textboxes - 13/08/2017 */
+
+#datatables{ /*table*/
+	position: relative;
+	font-family: Calibri;
+	left: 0%;
+	top: 0%;
+	width: 100%;
+	padding: 0%;
+	height: auto;
+	font-size: 15px;
+	padding: 0.5%;
+}
+
+#alldata_h{ /*table header*/
+	font-family: Calibri;
+	border-collapse: collapse;
+	border-bottom: 1px solid #ff8C00;
+	color: #ff8C00;
+}
+
+#alldata_d{ /*table header*/
+	font-family: Calibri;
+	border-collapse: collapse;
+	border-bottom: 1px solid #ff8C00;
+}
+
+#admindatabase_allsearch{
+	font-family: Calibri;
+	background-image: url("D1FoF7.png");
+	width: auto;
+	height: auto;
+	left:0%;
+	top: 0%;
+	padding: 1%;
+}
+
+#textbox{
+	padding: 0.5%;
+	width: 25%;
+}
+
+#dropbox{
+	padding: 0.5%;
+	width: 25%;
+}
+
+#checkbox{
+	padding: 0.5%;
+	width: 18px;
+	height: 18px;
+}
+
+/*20/08/2017*/
+
+#slidertxt1{
+	width: 350px;
+	float: left;
+	position: absolute;
+	color:#000000;
+	font-family: Century Gothic;
+	font-weight: bold;
+	font-size: 45px;
+	left: 2%;
+}
+
+#slidertxt2{
+	width: 350px;
+	float: left;
+	position: absolute;
+	color:#ffffff;
+	font-family: Century Gothic;
+	font-weight: bold;
+	font-size: 45px;
+	left: 31.5%;
+	text-align: right;
+}
+
+
+/*code based on a video tutorial on youtube*/
+
+.slideshow{
+	height: 500px;
+	overflow: hidden;
+	
+}
+.slideshow figure div{
+	width: 20%;
+	float: left;
+}
+.slideshow figure img{
+	width: 100%;
+	float: left;
+}
+
+.slideshow figure{
+	position: relative;
+	width: 500%;
+	margin: 0%;
+	left: 0%;
+	animation: 20s slideshow infinite;
+}
+
+@keyframes slideshow{
+	0%{
+		left: 0%;
+	}
+	15%{
+		left: 0%;
+	}
+	30%{
+		left: -100%;
+	}
+	60%{
+		left: -100%;
+	}
+	75%{
+		left: -200%;
+	}
+	90%{
+		left: -200%;
+	}
+	100%{
+		left: 0%;
+	}
+
+}
